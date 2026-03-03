@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dados & FrontEnd</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -14,6 +15,7 @@
             <ul> <!--Lista não ordenada de links do menu.-->
                 <li><a href="#sobre">Sobre mim</a></li> <!--itens da lista-->
                 <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contatos">Contatos</a></li>
                 <li><a href="https://google.com.br" target="_blank">Google</a></li>
                 <!--target = "_blank" faz com que o site abra em outra aba do navegador web.-->
@@ -22,8 +24,8 @@
         </nav>
     </header>
 
-    <section id="sobre">
-        <h2>Sobre min</h2>
+    <section class = "secoes">
+        <h2  id="sobre">Sobre mim</h2>
         <img src="./assets/cachorro.jpg" alt="Imagem de foto de perfil." title="imagem de perfil">
         <article>
             <p>Eu sou a Ninah sou desenvolvedora Web e analista de BI. Adicionado mais um texto.</p>
@@ -38,16 +40,16 @@
             </ul>
         </aside>
     </section>
-    <section id="projetos">
-        <h2>Projetos</h2>
+    <section class = "secoes" >
+        <h2 id="projetos">Projetos</h2>
         <article>
             <h3>Portfólio</h3>
             <p>Este foi o primeiro site que desenvolvi estudando FrontEnd.
             </p>
         </article>
     </section>
-    <section id="habilidades">
-        <h2>Habilidades e tecnologias</h2>
+    <section class = "secoes" >
+        <h2 id="habilidades">Habilidades e tecnologias</h2>
         <table>
             <thead>
                 <tr> <!--define uma nova linha na tabela-->
@@ -77,8 +79,8 @@
 
     </section>
     <footer>
-        <section id="contatos">
-            <h2>Contatos</h2>
+        <section class = "secoes" >
+            <h2 id="contatos">Contatos</h2>
             <p>Tem um projeto em mente, entre em contato.</p>
             <form action="">
                 <label for="nome">Nome: </label>

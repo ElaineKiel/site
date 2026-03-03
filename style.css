@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(181, 181, 204);
+}
+
+h1{
+    color: rgb(110, 35, 88);
+}
+.secoes{
+    color: rgb(44, 44, 49);
+}
+
+#sobre{
+    color: rgb(158, 72, 129);
+    font-weight: bold;
+}
+
+
+/*seletor IRMÃO ADJACENTE (+)- aplica estilo ao elemento localizado logo após (ao lado);
+img + p {
+    font-weight: bold;
+    color:red;
+}
+seletor GERAL DE IRMÃO (~) - aplica estilo a todos os elementos que vierem após determinado elemento, não apenas quem estiver ao lado. Contudo não pode haver nenhuma outra tag no meio do caminho. caso haja, o aplicação do estilo é interrompida a partir daquele ponto.
+img ~ p {
+    font-weight: bold;
+    color:red;
+}
+seletor FILHO (>) - aplica a todos os elementos filhos.
+article > p {
+    color: yellow;}
+
+seletor DESCENDENTE (espaço) - aplica a todos descendente de uma tag.
+aside h3 {
+    color: yellow;
+}*/
